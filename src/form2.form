@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="form2">
+  <grid id="27dc6" binding="bio" layout-manager="GridLayoutManager" row-count="4" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="5" left="5" bottom="5" right="5"/>
+    <constraints>
+      <xy x="64" y="20" width="841" height="398"/>
+    </constraints>
+    <properties>
+      <background color="-5046358"/>
+      <minimumSize width="284" height="284"/>
+      <preferredSize width="600" height="450"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="36129" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="7" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="BIOGRAFIA"/>
+        </properties>
+      </component>
+      <vspacer id="1126b">
+        <constraints>
+          <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="13228" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Biografia Mateo Moran"/>
+        </properties>
+      </component>
+      <component id="d0ac4" class="javax.swing.JTextPane" binding="meLlamoBrandonMateoTextPane" default-binding="true">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-879"/>
+          <text value="Me llamo Brandon Mateo Morán Muñoz y naci un 20 de febrero del 2004 en Quito, actualmente tengo 20 años. Desde una edad muy temprana mostre interes por la tecnomologia, los celulares y las computadoras lo que hacia que desde niño intente instalar programas sin conocimientos o abrir computadoras antiguas para ver que contienen dentro. En el colegio al seguir Bachillerato Tecnico aprendi mucho sobre los sistemas operativos y en general los sistemas, de ello lo que más me llamo la atencion fue la programacion, la forma en como se crean los programas, las aplicaciones me llamo mucho la atencion lo que me llevo a seguir esa carrera en la universidad. Espero poder lograr los objetivos que tengo planteados sin tantos problemas y aprender todo lo que se pueda en la universidad."/>
+        </properties>
+      </component>
+      <component id="5009a" class="javax.swing.JButton" binding="SIGUIENTEButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5046358"/>
+          <text value="SIGUIENTE"/>
+        </properties>
+      </component>
+      <hspacer id="6dcd0">
+        <constraints>
+          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="77305">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+    </children>
+  </grid>
+</form>
